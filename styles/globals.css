@@ -1,0 +1,58 @@
+.bg-primary {
+  background-color: #3b82f6;
+}
+
+.bg-secondary {
+  background-color: #f97316;
+}
+
+.text-primary {
+  color: #ffffff;
+}
+
+.text-secondary {
+  color: #1f2937;
+}
+
+.font-sans {
+  font-family: 'Helvetica Neue', 'Arial', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-weight: 600;
+}
+
+button.primary {
+  background-color: #3b82f6;
+  color: #ffffff;
+}
+
+button.secondary {
+  background-color: #f97316;
+  color: #ffffff;
+}
+
+input, textarea {
+  padding: 0.5rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.375rem;
+  outline: none;
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
